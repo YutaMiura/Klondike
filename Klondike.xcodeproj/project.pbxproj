@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F96910B197EB9E7005C1E43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F96910A197EB9E7005C1E43 /* Foundation.framework */; };
+		3F96910D197EB9E7005C1E43 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F96910C197EB9E7005C1E43 /* CoreGraphics.framework */; };
+		3F96910F197EB9E7005C1E43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F96910E197EB9E7005C1E43 /* UIKit.framework */; };
+		3F969115197EB9E7005C1E43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F969113197EB9E7005C1E43 /* InfoPlist.strings */; };
+		3F969117197EB9E7005C1E43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F969116197EB9E7005C1E43 /* main.m */; };
+		3F96911B197EB9E7005C1E43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F96911A197EB9E7005C1E43 /* AppDelegate.m */; };
+		3F96911E197EB9E7005C1E43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F96911C197EB9E7005C1E43 /* Main.storyboard */; };
+		3F969121197EB9E7005C1E43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F969120197EB9E7005C1E43 /* ViewController.m */; };
+		3F969123197EB9E7005C1E43 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F969122197EB9E7005C1E43 /* Images.xcassets */; };
+		3F96912A197EB9E7005C1E43 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F969129197EB9E7005C1E43 /* XCTest.framework */; };
+		3F96912B197EB9E7005C1E43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F96910A197EB9E7005C1E43 /* Foundation.framework */; };
+		3F96912C197EB9E7005C1E43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F96910E197EB9E7005C1E43 /* UIKit.framework */; };
+		3F969134197EB9E7005C1E43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F969132197EB9E7005C1E43 /* InfoPlist.strings */; };
+		3F969136197EB9E7005C1E43 /* KlondikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F969135197EB9E7005C1E43 /* KlondikeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F96912D197EB9E7005C1E43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F9690FF197EB9E7005C1E43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F969106197EB9E7005C1E43;
+			remoteInfo = Klondike;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F969107197EB9E7005C1E43 /* Klondike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Klondike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F96910A197EB9E7005C1E43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F96910C197EB9E7005C1E43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F96910E197EB9E7005C1E43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F969112197EB9E7005C1E43 /* Klondike-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Klondike-Info.plist"; sourceTree = "<group>"; };
+		3F969114197EB9E7005C1E43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F969116197EB9E7005C1E43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F969118197EB9E7005C1E43 /* Klondike-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Klondike-Prefix.pch"; sourceTree = "<group>"; };
+		3F969119197EB9E7005C1E43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F96911A197EB9E7005C1E43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F96911D197EB9E7005C1E43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F96911F197EB9E7005C1E43 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F969120197EB9E7005C1E43 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F969122197EB9E7005C1E43 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3F969128197EB9E7005C1E43 /* KlondikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KlondikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F969129197EB9E7005C1E43 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3F969131197EB9E7005C1E43 /* KlondikeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KlondikeTests-Info.plist"; sourceTree = "<group>"; };
+		3F969133197EB9E7005C1E43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F969135197EB9E7005C1E43 /* KlondikeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KlondikeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F969104197EB9E7005C1E43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F96910D197EB9E7005C1E43 /* CoreGraphics.framework in Frameworks */,
+				3F96910F197EB9E7005C1E43 /* UIKit.framework in Frameworks */,
+				3F96910B197EB9E7005C1E43 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F969125197EB9E7005C1E43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F96912A197EB9E7005C1E43 /* XCTest.framework in Frameworks */,
+				3F96912C197EB9E7005C1E43 /* UIKit.framework in Frameworks */,
+				3F96912B197EB9E7005C1E43 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F9690FE197EB9E7005C1E43 = {
+			isa = PBXGroup;
+			children = (
+				3F969110197EB9E7005C1E43 /* Klondike */,
+				3F96912F197EB9E7005C1E43 /* KlondikeTests */,
+				3F969109197EB9E7005C1E43 /* Frameworks */,
+				3F969108197EB9E7005C1E43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F969108197EB9E7005C1E43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F969107197EB9E7005C1E43 /* Klondike.app */,
+				3F969128197EB9E7005C1E43 /* KlondikeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F969109197EB9E7005C1E43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F96910A197EB9E7005C1E43 /* Foundation.framework */,
+				3F96910C197EB9E7005C1E43 /* CoreGraphics.framework */,
+				3F96910E197EB9E7005C1E43 /* UIKit.framework */,
+				3F969129197EB9E7005C1E43 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F969110197EB9E7005C1E43 /* Klondike */ = {
+			isa = PBXGroup;
+			children = (
+				3F969119197EB9E7005C1E43 /* AppDelegate.h */,
+				3F96911A197EB9E7005C1E43 /* AppDelegate.m */,
+				3F96911C197EB9E7005C1E43 /* Main.storyboard */,
+				3F96911F197EB9E7005C1E43 /* ViewController.h */,
+				3F969120197EB9E7005C1E43 /* ViewController.m */,
+				3F969122197EB9E7005C1E43 /* Images.xcassets */,
+				3F969111197EB9E7005C1E43 /* Supporting Files */,
+			);
+			path = Klondike;
+			sourceTree = "<group>";
+		};
+		3F969111197EB9E7005C1E43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F969112197EB9E7005C1E43 /* Klondike-Info.plist */,
+				3F969113197EB9E7005C1E43 /* InfoPlist.strings */,
+				3F969116197EB9E7005C1E43 /* main.m */,
+				3F969118197EB9E7005C1E43 /* Klondike-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F96912F197EB9E7005C1E43 /* KlondikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F969135197EB9E7005C1E43 /* KlondikeTests.m */,
+				3F969130197EB9E7005C1E43 /* Supporting Files */,
+			);
+			path = KlondikeTests;
+			sourceTree = "<group>";
+		};
+		3F969130197EB9E7005C1E43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F969131197EB9E7005C1E43 /* KlondikeTests-Info.plist */,
+				3F969132197EB9E7005C1E43 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F969106197EB9E7005C1E43 /* Klondike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F969139197EB9E7005C1E43 /* Build configuration list for PBXNativeTarget "Klondike" */;
+			buildPhases = (
+				3F969103197EB9E7005C1E43 /* Sources */,
+				3F969104197EB9E7005C1E43 /* Frameworks */,
+				3F969105197EB9E7005C1E43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Klondike;
+			productName = Klondike;
+			productReference = 3F969107197EB9E7005C1E43 /* Klondike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F969127197EB9E7005C1E43 /* KlondikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F96913C197EB9E7005C1E43 /* Build configuration list for PBXNativeTarget "KlondikeTests" */;
+			buildPhases = (
+				3F969124197EB9E7005C1E43 /* Sources */,
+				3F969125197EB9E7005C1E43 /* Frameworks */,
+				3F969126197EB9E7005C1E43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F96912E197EB9E7005C1E43 /* PBXTargetDependency */,
+			);
+			name = KlondikeTests;
+			productName = KlondikeTests;
+			productReference = 3F969128197EB9E7005C1E43 /* KlondikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F9690FF197EB9E7005C1E43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Yuta Miura";
+				TargetAttributes = {
+					3F969127197EB9E7005C1E43 = {
+						TestTargetID = 3F969106197EB9E7005C1E43;
+					};
+				};
+			};
+			buildConfigurationList = 3F969102197EB9E7005C1E43 /* Build configuration list for PBXProject "Klondike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F9690FE197EB9E7005C1E43;
+			productRefGroup = 3F969108197EB9E7005C1E43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F969106197EB9E7005C1E43 /* Klondike */,
+				3F969127197EB9E7005C1E43 /* KlondikeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F969105197EB9E7005C1E43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F969123197EB9E7005C1E43 /* Images.xcassets in Resources */,
+				3F969115197EB9E7005C1E43 /* InfoPlist.strings in Resources */,
+				3F96911E197EB9E7005C1E43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F969126197EB9E7005C1E43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F969134197EB9E7005C1E43 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F969103197EB9E7005C1E43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F969121197EB9E7005C1E43 /* ViewController.m in Sources */,
+				3F96911B197EB9E7005C1E43 /* AppDelegate.m in Sources */,
+				3F969117197EB9E7005C1E43 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F969124197EB9E7005C1E43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F969136197EB9E7005C1E43 /* KlondikeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F96912E197EB9E7005C1E43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F969106197EB9E7005C1E43 /* Klondike */;
+			targetProxy = 3F96912D197EB9E7005C1E43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F969113197EB9E7005C1E43 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F969114197EB9E7005C1E43 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3F96911C197EB9E7005C1E43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F96911D197EB9E7005C1E43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F969132197EB9E7005C1E43 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F969133197EB9E7005C1E43 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F969137197EB9E7005C1E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F969138197EB9E7005C1E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F96913A197EB9E7005C1E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Klondike/Klondike-Prefix.pch";
+				INFOPLIST_FILE = "Klondike/Klondike-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F96913B197EB9E7005C1E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Klondike/Klondike-Prefix.pch";
+				INFOPLIST_FILE = "Klondike/Klondike-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3F96913D197EB9E7005C1E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Klondike.app/Klondike";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Klondike/Klondike-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KlondikeTests/KlondikeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3F96913E197EB9E7005C1E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Klondike.app/Klondike";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Klondike/Klondike-Prefix.pch";
+				INFOPLIST_FILE = "KlondikeTests/KlondikeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F969102197EB9E7005C1E43 /* Build configuration list for PBXProject "Klondike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F969137197EB9E7005C1E43 /* Debug */,
+				3F969138197EB9E7005C1E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F969139197EB9E7005C1E43 /* Build configuration list for PBXNativeTarget "Klondike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F96913A197EB9E7005C1E43 /* Debug */,
+				3F96913B197EB9E7005C1E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F96913C197EB9E7005C1E43 /* Build configuration list for PBXNativeTarget "KlondikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F96913D197EB9E7005C1E43 /* Debug */,
+				3F96913E197EB9E7005C1E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F9690FF197EB9E7005C1E43 /* Project object */;
+}
